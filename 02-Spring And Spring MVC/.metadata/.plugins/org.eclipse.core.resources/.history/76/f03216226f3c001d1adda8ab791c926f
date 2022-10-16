@@ -1,0 +1,32 @@
+
+public class Employee {
+
+	private int id;
+	private String name;
+	private String salary;
+	
+	private Address add;
+
+
+	public Employee(int id, String name, String salary, Address add) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+		this.add = add;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", add=" + add + "]";
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+}

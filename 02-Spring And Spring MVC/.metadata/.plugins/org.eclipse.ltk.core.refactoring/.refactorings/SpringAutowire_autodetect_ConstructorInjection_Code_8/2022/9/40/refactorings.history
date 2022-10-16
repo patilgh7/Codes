@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringAutowire_autodetect_ConstructorInjection_Code_8/src/main/resources/AppContext.xml&apos; to &apos;Spring.xml&apos;" description="Rename resource &apos;AppContext.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/AppContext.xml" name="Spring.xml" stamp="1664067348404" updateReferences="true"/>
+</session>

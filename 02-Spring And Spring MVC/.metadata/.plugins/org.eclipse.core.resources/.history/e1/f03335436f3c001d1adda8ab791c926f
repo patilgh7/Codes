@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<!-- <bean/> definitions here -->
+
+	<!-- Constructor Based Injection -->
+
+	<!-- autowire="constructor"  -->
+
+
+
+	<bean id="e" class="Employee" autowire="constructor">
+		<constructor-arg value="101"></constructor-arg>
+		<constructor-arg value="Ram"></constructor-arg>
+		<constructor-arg value="10000"></constructor-arg>
+		
+
+	</bean>
+
+	<bean id="add" class="Address">
+		<constructor-arg value="Pune"></constructor-arg>
+		<constructor-arg value="Maharashtra"></constructor-arg>
+	</bean>
+
+
+
+</beans>
+
+
+
